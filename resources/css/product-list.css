@@ -1,0 +1,98 @@
+section.service-banner {
+    min-height: 320px !important;
+    position: relative;
+    background-color: #131B2D;
+    padding: 110px 20px 20px 20px;
+    background-image: url('../uploads/service-bg.png');
+
+}
+
+header{
+    background-color: #131B2D;
+}
+
+.g-5, .gx-5 {
+    --bs-gutter-x: 3rem;
+}
+
+.banner-title.text-white {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+section.product-list {
+    padding: 110px 0px;
+}
+.product-list-container{
+    background-image: url('../uploads/product-list-bg.png');
+    background-size: cover;
+    background-position: top center;
+    background-color: #fff;
+    padding: 110px 20px 0px 20px;
+}
+
+.product-name {
+    margin-top: 25px;
+    background-color: #252F41;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 22px;
+    padding: 0px 10px;
+}
+
+.product-box {
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-shadow: 0px 2px 30px rgb(137 156 255 / 21%);
+    border-radius: 35px;
+}
+
+.video-section {
+    background-image: unset;
+    margin-top: 0px;
+    filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.13));
+}
+
+section.why-choose-us {
+    padding: 100px 0px 0px 0px;
+}
+
+#customers-testimonials.product-list {
+    padding-bottom: 70px;
+  }
+
+.banner-title.text-white {
+    font-size: 35px;
+}
+
+.product-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 30px 79px rgb(73 144 196 / 24%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.product-box:hover .product-name{
+    background-color: #FFC266;
+    transition-duration: 0.5s;
+}
+
+@media(max-width: 1024px) {
+    .product-list-container {
+        padding: 70px 20px;
+    }
+
+    .banner-title.text-white {
+        font-size: 35px;
+    }
+
+    .product-name {
+        font-size: 18px;
+    }
+
+}
+@media(max-width: 375px){
+    .row-cols-375 > div{
+        width: 100%;
+    }
+}
